@@ -1,0 +1,77 @@
+/* xtc.css */
+
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:400px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 5px;
+}
+
+.box {
+  background-color: dogerblue;
+  color: black;
+  border-radius: 0px;
+  border: 2px black solid;
+}
+
+* {
+ box-sizing: border-box;
+}
+body {
+ background-image: radial-gradient(circle, #506c97, #0093c2, #00b9bd, #00d983, #a8eb12);
+}
+p {
+  font-family: Arial;
+}
+h1 {
+text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+ h5 {
+    color: maroon;
+    border: 1px solid red;
+    width: 95px;
+     padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+.upperclass{
+bold: red;
+}
+.description h5 {
+  color: teal;
+}
+.share a {
+  background: green;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+}
+.caption {
+  opacity: 0.70;
+  color: black;
+  background-color: grey;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: align right;
+  top: 80%;
+  width: 18%;
+}
+table, td {
+border: 1px solid black;
+}
